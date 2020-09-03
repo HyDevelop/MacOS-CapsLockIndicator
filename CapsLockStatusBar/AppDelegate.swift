@@ -23,6 +23,12 @@ class AppDelegate: NSObject, NSApplicationDelegate
         // Create status item
         statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
     }
+    
+    // Detect if the system is light or dark
+    func light() -> Bool
+    {
+        return UserDefaults.standard.string(forKey: "AppleInterfaceStyle") ?? "Light" == "Light"
+    }
     }
 }
 
