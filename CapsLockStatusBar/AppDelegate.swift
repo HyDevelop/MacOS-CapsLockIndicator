@@ -17,6 +17,9 @@ class AppDelegate: NSObject, NSApplicationDelegate
     
     // Menu link
     @IBOutlet weak var menu: NSMenu?
+    
+    // Images (images[capslock] = image)
+    var images = [true: NSImage(named: "enabled")!, false: NSImage(named: "disabled")!]
 
     // Set status bar
     override func awakeFromNib()
