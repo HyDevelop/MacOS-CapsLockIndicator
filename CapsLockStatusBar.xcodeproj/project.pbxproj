@@ -8,12 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		4F0427FC2501849F003220E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0427FB2501849F003220E6 /* AppDelegate.swift */; };
-		4F0427FE2501849F003220E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0427FD2501849F003220E6 /* ContentView.swift */; };
 		4F042800250184A0003220E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F0427FF250184A0003220E6 /* Assets.xcassets */; };
 		4F042803250184A0003220E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F042802250184A0003220E6 /* Preview Assets.xcassets */; };
 		4F042806250184A0003220E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F042804250184A0003220E6 /* Main.storyboard */; };
-		4F042812250184A1003220E6 /* CapsLockStatusBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F042811250184A1003220E6 /* CapsLockStatusBarTests.swift */; };
-		4F04281D250184A1003220E6 /* CapsLockStatusBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F04281C250184A1003220E6 /* CapsLockStatusBarUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,18 +33,13 @@
 /* Begin PBXFileReference section */
 		4F0427F82501849F003220E6 /* CapsLockStatusBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CapsLockStatusBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F0427FB2501849F003220E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4F0427FD2501849F003220E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4F0427FF250184A0003220E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F042802250184A0003220E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4F042805250184A0003220E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4F042807250184A0003220E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F042808250184A0003220E6 /* CapsLockStatusBar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CapsLockStatusBar.entitlements; sourceTree = "<group>"; };
 		4F04280D250184A1003220E6 /* CapsLockStatusBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CapsLockStatusBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F042811250184A1003220E6 /* CapsLockStatusBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsLockStatusBarTests.swift; sourceTree = "<group>"; };
-		4F042813250184A1003220E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F042818250184A1003220E6 /* CapsLockStatusBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CapsLockStatusBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F04281C250184A1003220E6 /* CapsLockStatusBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsLockStatusBarUITests.swift; sourceTree = "<group>"; };
-		4F04281E250184A1003220E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,8 +71,6 @@
 			isa = PBXGroup;
 			children = (
 				4F0427FA2501849F003220E6 /* CapsLockStatusBar */,
-				4F042810250184A1003220E6 /* CapsLockStatusBarTests */,
-				4F04281B250184A1003220E6 /* CapsLockStatusBarUITests */,
 				4F0427F92501849F003220E6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,7 +89,6 @@
 			isa = PBXGroup;
 			children = (
 				4F0427FB2501849F003220E6 /* AppDelegate.swift */,
-				4F0427FD2501849F003220E6 /* ContentView.swift */,
 				4F0427FF250184A0003220E6 /* Assets.xcassets */,
 				4F042804250184A0003220E6 /* Main.storyboard */,
 				4F042807250184A0003220E6 /* Info.plist */,
@@ -115,24 +104,6 @@
 				4F042802250184A0003220E6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		4F042810250184A1003220E6 /* CapsLockStatusBarTests */ = {
-			isa = PBXGroup;
-			children = (
-				4F042811250184A1003220E6 /* CapsLockStatusBarTests.swift */,
-				4F042813250184A1003220E6 /* Info.plist */,
-			);
-			path = CapsLockStatusBarTests;
-			sourceTree = "<group>";
-		};
-		4F04281B250184A1003220E6 /* CapsLockStatusBarUITests */ = {
-			isa = PBXGroup;
-			children = (
-				4F04281C250184A1003220E6 /* CapsLockStatusBarUITests.swift */,
-				4F04281E250184A1003220E6 /* Info.plist */,
-			);
-			path = CapsLockStatusBarUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,7 +237,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F0427FE2501849F003220E6 /* ContentView.swift in Sources */,
 				4F0427FC2501849F003220E6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,7 +245,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F042812250184A1003220E6 /* CapsLockStatusBarTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +252,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F04281D250184A1003220E6 /* CapsLockStatusBarUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
