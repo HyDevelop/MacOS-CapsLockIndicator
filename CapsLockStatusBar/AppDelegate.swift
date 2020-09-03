@@ -20,6 +20,8 @@ class AppDelegate: NSObject, NSApplicationDelegate
     
     // Images (images[capslock] = image)
     var images = [true: NSImage(named: "enabled")!, false: NSImage(named: "disabled")!]
+    
+    var capslock = false
 
     // Set status bar
     override func awakeFromNib()
@@ -51,6 +53,7 @@ class AppDelegate: NSObject, NSApplicationDelegate
     func flagsChanged(with event: NSEvent)
     {
         capslock = event.modifierFlags.intersection(.deviceIndependentFlagsMask).contains(.capsLock)
+        statusItem?.button?.image = images[capslock]
         print("Capslock: " + String(capslock))
     }
 }
