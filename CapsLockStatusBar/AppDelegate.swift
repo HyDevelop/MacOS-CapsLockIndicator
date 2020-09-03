@@ -25,6 +25,11 @@ class AppDelegate: NSObject, NSApplicationDelegate
 
         // Create status item
         statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
+        
+        // Open application menu on click (TODO: Simplify?)
+        if let menu = menu {
+            statusItem?.menu = menu
+        }
     }
     
     // Detect if the system is light or dark
