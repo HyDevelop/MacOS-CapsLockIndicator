@@ -25,6 +25,9 @@ class AppDelegate: NSObject, NSApplicationDelegate
     override func awakeFromNib()
     {
         super.awakeFromNib()
+        
+        // Add capslocks event handler
+        NSEvent.addGlobalMonitorForEvents(matching: .flagsChanged, handler: flagsChanged)
 
         // Create status item
         statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
