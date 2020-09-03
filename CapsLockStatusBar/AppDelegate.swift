@@ -14,6 +14,9 @@ class AppDelegate: NSObject, NSApplicationDelegate
 {
     // Status bar item
     var statusItem: NSStatusItem?
+    
+    // Menu link
+    @IBOutlet weak var menu: NSMenu?
 
     // Set status bar
     override func awakeFromNib()
