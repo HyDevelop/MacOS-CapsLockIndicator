@@ -43,12 +43,6 @@ class AppDelegate: NSObject, NSApplicationDelegate
         }
     }
     
-    // Detect if the system is light or dark
-    func light() -> Bool
-    {
-        return UserDefaults.standard.string(forKey: "AppleInterfaceStyle") ?? "Light" == "Light"
-    }
-    
     // Event handler to check if capslock is enabled
     func flagsChanged(with event: NSEvent)
     {
