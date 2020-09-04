@@ -32,10 +32,8 @@ class AppDelegate: NSObject, NSApplicationDelegate
         // Image
         statusItem.button?.image = images[false]
         
-        // Open application menu on click (TODO: Simplify?)
-        if let menu = menu {
-            statusItem.menu = menu
-        }
+        // Open application menu on click
+        statusItem.menu = menu
     }
     
     // Event handler to check if capslock is enabled
