@@ -29,7 +29,7 @@ class AppDelegate: NSObject, NSApplicationDelegate
         // Add capslocks event handler
         NSEvent.addGlobalMonitorForEvents(matching: .flagsChanged, handler: flagsChanged)
         
-        // Image
+        // Default image
         statusItem.button?.image = images[false]
         
         // Open application menu on click
@@ -39,7 +39,11 @@ class AppDelegate: NSObject, NSApplicationDelegate
     // Event handler to check if capslock is enabled
     func flagsChanged(with event: NSEvent)
     {
-        statusItem.button?.image = images[event.modifierFlags.intersection(.deviceIndependentFlagsMask).contains(.capsLock)]
+        // Get caps lock state
+        let caps = event.modifierFlags.intersection(.deviceIndependentFlagsMask).contains(.capsLock)
+        
+        // Change image
+        statusItem.button?.image = images[caps]
     }
 }
 
