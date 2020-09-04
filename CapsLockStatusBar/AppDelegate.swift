@@ -32,7 +32,7 @@ class AppDelegate: NSObject, NSApplicationDelegate
         NSEvent.addGlobalMonitorForEvents(matching: .flagsChanged, handler: flagsChanged)
 
         // Create status item
-        statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
+        statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.squareLength)
         
         // Image
         statusItem?.button?.image = images[capslock]
