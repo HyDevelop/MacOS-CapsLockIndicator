@@ -4,3 +4,6 @@ This is a macOS status bar utility that shows whether caps lock is enabled, insp
 
 ![](https://i.imgur.com/8B6OeLe.png)
 
+## Download:
+
+https://github.com/HyDevelop/MacOS-CapsLockIndicator/releases
