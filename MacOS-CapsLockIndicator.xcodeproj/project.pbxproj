@@ -13,51 +13,18 @@
 		4F042806250184A0003220E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F042804250184A0003220E6 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		4F04280E250184A1003220E6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4F0427F02501849E003220E6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4F0427F72501849E003220E6;
-			remoteInfo = CapsLockStatusBar;
-		};
-		4F042819250184A1003220E6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4F0427F02501849E003220E6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4F0427F72501849E003220E6;
-			remoteInfo = CapsLockStatusBar;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		4F0427F82501849F003220E6 /* CapsLockStatusBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CapsLockStatusBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F0427F82501849F003220E6 /* MacOS-CapsLockIndicator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MacOS-CapsLockIndicator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F0427FB2501849F003220E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F0427FF250184A0003220E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F042802250184A0003220E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4F042805250184A0003220E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4F042807250184A0003220E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F042808250184A0003220E6 /* CapsLockStatusBar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CapsLockStatusBar.entitlements; sourceTree = "<group>"; };
-		4F04280D250184A1003220E6 /* CapsLockStatusBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CapsLockStatusBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F042818250184A1003220E6 /* CapsLockStatusBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CapsLockStatusBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		4F0427F52501849E003220E6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4F04280A250184A1003220E6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4F042815250184A1003220E6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -70,7 +37,7 @@
 		4F0427EF2501849E003220E6 = {
 			isa = PBXGroup;
 			children = (
-				4F0427FA2501849F003220E6 /* CapsLockStatusBar */,
+				4F0427FA2501849F003220E6 /* MacOS-CapsLockIndicator */,
 				4F0427F92501849F003220E6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -78,14 +45,12 @@
 		4F0427F92501849F003220E6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4F0427F82501849F003220E6 /* CapsLockStatusBar.app */,
-				4F04280D250184A1003220E6 /* CapsLockStatusBarTests.xctest */,
-				4F042818250184A1003220E6 /* CapsLockStatusBarUITests.xctest */,
+				4F0427F82501849F003220E6 /* MacOS-CapsLockIndicator.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4F0427FA2501849F003220E6 /* CapsLockStatusBar */ = {
+		4F0427FA2501849F003220E6 /* MacOS-CapsLockIndicator */ = {
 			isa = PBXGroup;
 			children = (
 				4F0427FB2501849F003220E6 /* AppDelegate.swift */,
@@ -95,7 +60,7 @@
 				4F042808250184A0003220E6 /* CapsLockStatusBar.entitlements */,
 				4F042801250184A0003220E6 /* Preview Content */,
 			);
-			path = CapsLockStatusBar;
+			path = "MacOS-CapsLockIndicator";
 			sourceTree = "<group>";
 		};
 		4F042801250184A0003220E6 /* Preview Content */ = {
@@ -109,9 +74,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4F0427F72501849E003220E6 /* CapsLockStatusBar */ = {
+		4F0427F72501849E003220E6 /* MacOS-CapsLockIndicator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4F042821250184A1003220E6 /* Build configuration list for PBXNativeTarget "CapsLockStatusBar" */;
+			buildConfigurationList = 4F042821250184A1003220E6 /* Build configuration list for PBXNativeTarget "MacOS-CapsLockIndicator" */;
 			buildPhases = (
 				4F0427F42501849E003220E6 /* Sources */,
 				4F0427F52501849E003220E6 /* Frameworks */,
@@ -121,46 +86,10 @@
 			);
 			dependencies = (
 			);
-			name = CapsLockStatusBar;
+			name = "MacOS-CapsLockIndicator";
 			productName = CapsLockStatusBar;
-			productReference = 4F0427F82501849F003220E6 /* CapsLockStatusBar.app */;
+			productReference = 4F0427F82501849F003220E6 /* MacOS-CapsLockIndicator.app */;
 			productType = "com.apple.product-type.application";
-		};
-		4F04280C250184A1003220E6 /* CapsLockStatusBarTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4F042824250184A1003220E6 /* Build configuration list for PBXNativeTarget "CapsLockStatusBarTests" */;
-			buildPhases = (
-				4F042809250184A1003220E6 /* Sources */,
-				4F04280A250184A1003220E6 /* Frameworks */,
-				4F04280B250184A1003220E6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4F04280F250184A1003220E6 /* PBXTargetDependency */,
-			);
-			name = CapsLockStatusBarTests;
-			productName = CapsLockStatusBarTests;
-			productReference = 4F04280D250184A1003220E6 /* CapsLockStatusBarTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		4F042817250184A1003220E6 /* CapsLockStatusBarUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4F042827250184A1003220E6 /* Build configuration list for PBXNativeTarget "CapsLockStatusBarUITests" */;
-			buildPhases = (
-				4F042814250184A1003220E6 /* Sources */,
-				4F042815250184A1003220E6 /* Frameworks */,
-				4F042816250184A1003220E6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4F04281A250184A1003220E6 /* PBXTargetDependency */,
-			);
-			name = CapsLockStatusBarUITests;
-			productName = CapsLockStatusBarUITests;
-			productReference = 4F042818250184A1003220E6 /* CapsLockStatusBarUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -175,17 +104,9 @@
 					4F0427F72501849E003220E6 = {
 						CreatedOnToolsVersion = 11.7;
 					};
-					4F04280C250184A1003220E6 = {
-						CreatedOnToolsVersion = 11.7;
-						TestTargetID = 4F0427F72501849E003220E6;
-					};
-					4F042817250184A1003220E6 = {
-						CreatedOnToolsVersion = 11.7;
-						TestTargetID = 4F0427F72501849E003220E6;
-					};
 				};
 			};
-			buildConfigurationList = 4F0427F32501849E003220E6 /* Build configuration list for PBXProject "CapsLockStatusBar" */;
+			buildConfigurationList = 4F0427F32501849E003220E6 /* Build configuration list for PBXProject "MacOS-CapsLockIndicator" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -198,9 +119,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4F0427F72501849E003220E6 /* CapsLockStatusBar */,
-				4F04280C250184A1003220E6 /* CapsLockStatusBarTests */,
-				4F042817250184A1003220E6 /* CapsLockStatusBarUITests */,
+				4F0427F72501849E003220E6 /* MacOS-CapsLockIndicator */,
 			);
 		};
 /* End PBXProject section */
@@ -216,20 +135,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F04280B250184A1003220E6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4F042816250184A1003220E6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -241,34 +146,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F042809250184A1003220E6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4F042814250184A1003220E6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		4F04280F250184A1003220E6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4F0427F72501849E003220E6 /* CapsLockStatusBar */;
-			targetProxy = 4F04280E250184A1003220E6 /* PBXContainerItemProxy */;
-		};
-		4F04281A250184A1003220E6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4F0427F72501849E003220E6 /* CapsLockStatusBar */;
-			targetProxy = 4F042819250184A1003220E6 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4F042804250184A0003220E6 /* Main.storyboard */ = {
@@ -399,21 +277,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = CapsLockStatusBar/CapsLockStatusBar.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"CapsLockStatusBar/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MacOS-CapsLockIndicator/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = CapsLockStatusBar/Info.plist;
+				INFOPLIST_FILE = "MacOS-CapsLockIndicator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = org.hydev.CapsLockStatusBar;
+				PRODUCT_BUNDLE_IDENTIFIER = org.hydev.capslock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -423,114 +301,30 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = CapsLockStatusBar/CapsLockStatusBar.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"CapsLockStatusBar/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MacOS-CapsLockIndicator/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = CapsLockStatusBar/Info.plist;
+				INFOPLIST_FILE = "MacOS-CapsLockIndicator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = org.hydev.CapsLockStatusBar;
+				PRODUCT_BUNDLE_IDENTIFIER = org.hydev.capslock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		4F042825250184A1003220E6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = JJNC9EQDFU;
-				INFOPLIST_FILE = CapsLockStatusBarTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = org.hydev.CapsLockStatusBarTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CapsLockStatusBar.app/Contents/MacOS/CapsLockStatusBar";
-			};
-			name = Debug;
-		};
-		4F042826250184A1003220E6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = JJNC9EQDFU;
-				INFOPLIST_FILE = CapsLockStatusBarTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = org.hydev.CapsLockStatusBarTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CapsLockStatusBar.app/Contents/MacOS/CapsLockStatusBar";
-			};
-			name = Release;
-		};
-		4F042828250184A1003220E6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = JJNC9EQDFU;
-				INFOPLIST_FILE = CapsLockStatusBarUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.hydev.CapsLockStatusBarUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = CapsLockStatusBar;
-			};
-			name = Debug;
-		};
-		4F042829250184A1003220E6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = JJNC9EQDFU;
-				INFOPLIST_FILE = CapsLockStatusBarUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.hydev.CapsLockStatusBarUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = CapsLockStatusBar;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4F0427F32501849E003220E6 /* Build configuration list for PBXProject "CapsLockStatusBar" */ = {
+		4F0427F32501849E003220E6 /* Build configuration list for PBXProject "MacOS-CapsLockIndicator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4F04281F250184A1003220E6 /* Debug */,
@@ -539,29 +333,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4F042821250184A1003220E6 /* Build configuration list for PBXNativeTarget "CapsLockStatusBar" */ = {
+		4F042821250184A1003220E6 /* Build configuration list for PBXNativeTarget "MacOS-CapsLockIndicator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4F042822250184A1003220E6 /* Debug */,
 				4F042823250184A1003220E6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4F042824250184A1003220E6 /* Build configuration list for PBXNativeTarget "CapsLockStatusBarTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4F042825250184A1003220E6 /* Debug */,
-				4F042826250184A1003220E6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4F042827250184A1003220E6 /* Build configuration list for PBXNativeTarget "CapsLockStatusBarUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4F042828250184A1003220E6 /* Debug */,
-				4F042829250184A1003220E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
