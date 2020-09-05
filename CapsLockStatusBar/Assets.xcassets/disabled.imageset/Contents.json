@@ -1,7 +1,7 @@
 {
   "images" : [
     {
-      "filename" : "Off_Light-22x22.png",
+      "filename" : "disabled0.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
@@ -12,12 +12,11 @@
           "value" : "dark"
         }
       ],
-      "filename" : "Off_Dark-22x22.png",
+      "filename" : "disabled1.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Off_Light-44x44.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
@@ -28,12 +27,10 @@
           "value" : "dark"
         }
       ],
-      "filename" : "Off_Dark-44x44.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "Off_Light-66x66.png",
       "idiom" : "universal",
       "scale" : "3x"
     },
@@ -44,7 +41,6 @@
           "value" : "dark"
         }
       ],
-      "filename" : "Off_Dark-66x66.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
