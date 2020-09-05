@@ -26,6 +26,9 @@ class AppDelegate: NSObject, NSApplicationDelegate
     {
         super.awakeFromNib()
         
+        // Template mode for images
+        images.values.forEach { it in it.isTemplate = true }
+        
         // Add capslocks event handler
         NSEvent.addGlobalMonitorForEvents(matching: .flagsChanged, handler: flagsChanged)
         
